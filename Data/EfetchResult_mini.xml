@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">27047480</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>06</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1664-302X</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>7</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Frontiers in microbiology</Title>
+                <ISOAbbreviation>Front Microbiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>3-Econsystems: MicroRNAs, Receptors, and Latent Viruses; Some Insights Biology Can Gain from Economic Theory.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>369</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3389/fmicb.2016.00369</ELocationID>
+            <Abstract>
+                <AbstractText>This mini-review describes three biological systems. All three include competing molecules and a limiting molecule that binds the competing molecules. Such systems are extensively researched by economists. In fact, the issue of limited resources is the defining feature of economic systems. Therefore, we call these systems &quot;econsystems.&quot; In an econsystem, the allocation of the limiting molecule between the competing molecules determines the behavior of the system. A cell is an example of an econsystem. Therefore, a change in the allocation of a limiting molecule as a result of, for instance, an abnormal change in the concentration of one of the competing molecules, may result in abnormal cellular behavior, and disease. The first econsystem described in this mini-review includes a long non-coding RNA and a messenger RNA (lncRNA and mRNA). The limiting molecule is a microRNA (miRNA). The lncRNA and mRNA are known as competing endogenous RNAs (ceRNAs). The second econsystem includes two receptors, and the limiting molecule is a ligand. The third econsystem includes a cis-regulatory element of a latent virus and that of a human gene. The limiting molecule is a transcription complex that binds both cis-elements.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Polansky</LastName>
+                    <ForeName>Hanan</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Center for the Biology of Chronic Disease Valley Cottage, NY, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Javaherian</LastName>
+                    <ForeName>Adrian</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Center for the Biology of Chronic Disease Valley Cottage, NY, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Front Microbiol</MedlineTA>
+            <NlmUniqueID>101548977</NlmUniqueID>
+            <ISSNLinking>1664-302X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">GA-binding protein</Keyword>
+            <Keyword MajorTopicYN="N">cis-regulatory element</Keyword>
+            <Keyword MajorTopicYN="N">latent virus</Keyword>
+            <Keyword MajorTopicYN="N">long non-coding RNA</Keyword>
+            <Keyword MajorTopicYN="N">microRNA</Keyword>
+            <Keyword MajorTopicYN="N">microcompetition</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2016</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.3389/fmicb.2016.00369</ArticleId>
+            <ArticleId IdType="pubmed">27047480</ArticleId>
+            <ArticleId IdType="pmc">PMC4803748</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">27047388</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>06</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1664-042X</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>7</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Frontiers in physiology</Title>
+                <ISOAbbreviation>Front Physiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Similar Responses of Circulating MicroRNAs to Acute High-Intensity Interval Exercise and Vigorous-Intensity Continuous Exercise.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>102</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3389/fphys.2016.00102</ELocationID>
+            <Abstract>
+                <AbstractText>High-intensity interval exercise (HIIE) has been reported to be more beneficial for physical adaptation than low-to-moderate exercise intensity. Recently, it is becoming increasingly evident that circulating miRNAs (c-miRNAs) may distinguish between specific stress signals imposed by variations in the duration, modality, and type of exercise. The aim of this study is to investigate whether or not HIIE is superior to vigorous-intensity continuous exercise (VICE), which is contributing to develop effective fitness assessment. Twenty-six young males were enrolled, and plasma samples were collected prior to exercise and immediately after HIIE or distance-matched VICE. The miRNA level profiles in HIIE were initially determined using TaqMan Low Density Array (TLDA). And the differentially miRNAs levels were validated by stem-loop quantitative reverse-transcription PCR (RT-qPCR). Furthermore, these selective c-miRNAs were measured for VICE. Our results showed that some muscle-related miRNAs levels in the plasma, such as miR-1, miR-133a, miR-133b, and miR-206 significantly increased following HIIE or VICE compared to those at rest (P &lt; 0.05), and there was only a significant reduction in miR-1 level for HIIE compared to VICE (P &lt; 0.05), while no significant differences were observed for other muscle-related miRNAs between both exercises (P &gt; 0.05). In addition, some tissue-related or unknown original miRNA levels, such as miR-485-5p, miR-509-5p, miR-517a, miR-518f, miR-520f, miR-522, miR-553, and miR-888, also significantly increased (P &lt; 0.05) in both exercises compared to rest. However, no significant differences were found between both exercises (P &gt; 0.05). Overall, endurance exercise assessed in this study both led to significant increases in selective c-miRNAs of comparable magnitude, suggesting that both types of endurance exercise have general stress processes. Accordingly, the similar responses to both acute exercises likely indicate both exercises can be used interchangeably. Further work is needed to reveal the functional significance and signaling mechanisms behind changes in c-miRNA turnover during exercise.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cui</LastName>
+                    <ForeName>Shu F</ForeName>
+                    <Initials>SF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Pharmaceutical Biotechnology, Collaborative Innovation Center of Chemistry for Life Sciences, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, NJU Advanced Institute for Life Sciences (NAILS), School of Life Sciences, Nanjing University Nanjing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Cheng</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Pharmaceutical Biotechnology, Collaborative Innovation Center of Chemistry for Life Sciences, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, NJU Advanced Institute for Life Sciences (NAILS), School of Life Sciences, Nanjing UniversityNanjing, China; Department of Clinical Laboratory, Jinling HospitalNanjing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yin</LastName>
+                    <ForeName>Xin</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Lab of Military Conditioning and Motor Function Assessment, The PLA University of Science and Technology Nanjing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tian</LastName>
+                    <ForeName>Dong</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Lab of Military Conditioning and Motor Function Assessment, The PLA University of Science and Technology Nanjing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Qiu J</ForeName>
+                    <Initials>QJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Lab of Military Conditioning and Motor Function Assessment, The PLA University of Science and Technology Nanjing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Chen Y</ForeName>
+                    <Initials>CY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Pharmaceutical Biotechnology, Collaborative Innovation Center of Chemistry for Life Sciences, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, NJU Advanced Institute for Life Sciences (NAILS), School of Life Sciences, Nanjing University Nanjing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Xi</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Pharmaceutical Biotechnology, Collaborative Innovation Center of Chemistry for Life Sciences, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, NJU Advanced Institute for Life Sciences (NAILS), School of Life Sciences, Nanjing University Nanjing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Ji Z</ForeName>
+                    <Initials>JZ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Pharmaceutical Biotechnology, Collaborative Innovation Center of Chemistry for Life Sciences, Jiangsu Engineering Research Center for MicroRNA Biology and Biotechnology, NJU Advanced Institute for Life Sciences (NAILS), School of Life Sciences, Nanjing UniversityNanjing, China; The Lab of Military Conditioning and Motor Function Assessment, The PLA University of Science and TechnologyNanjing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Front Physiol</MedlineTA>
+            <NlmUniqueID>101549006</NlmUniqueID>
+            <ISSNLinking>1664-042X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">aerobic capacity</Keyword>
+            <Keyword MajorTopicYN="N">biomarkers</Keyword>
+            <Keyword MajorTopicYN="N">circulating microRNAs</Keyword>
+            <Keyword MajorTopicYN="N">high intensity interval exercise</Keyword>
+            <Keyword MajorTopicYN="N">vigorous-intensity continuous exercise</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2016</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.3389/fphys.2016.00102</ArticleId>
+            <ArticleId IdType="pubmed">27047388</ArticleId>
+            <ArticleId IdType="pmc">PMC4796030</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+</PubmedArticleSet>
