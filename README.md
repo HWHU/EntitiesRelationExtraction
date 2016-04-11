@@ -29,5 +29,13 @@ The result is our raw data in [EfetchResult.zip] (https://github.com/ryubidragon
 
 ### 2. Extract PubMed ID and Abstracts from data downloaded from NCBI
 
-The only elements from raw data that we are interested in for this example are: PubMed ID and the associated Abstract. The text in abstracts will be served as the data for the machine learning task of entities relation recognition. This can be done using [ExtractPubMedIDAbstract.py] (https://github.com/ryubidragonfire/EntitiesRelationExtraction/). Don't forget to unzip the raw data [EfetchResult.zip] (https://github.com/ryubidragonfire/EntitiesRelationExtraction/tree/master/Data/).
+The only elements from raw data that we are interested in for this example are: PubMed ID and the associated Abstract. The text in abstracts will be served as the data for the machine learning task of entities relation recognition. This can be done using [ExtractPubMedIDAbstract.py] (https://github.com/ryubidragonfire/EntitiesRelationExtraction/). Don't forget to unzip the raw data [EfetchResult.zip] (https://github.com/ryubidragonfire/EntitiesRelationExtraction/tree/master/Data/) before hand! 
 
+### 3. Extract named entities, namely miRNA and gene/protein from a sentence.
+TODO!
+
+### 4. Entract word-based features for machine learning.
+TODO!
+
+### 5. Train a model for predicting existance of a relationship between a pair of miRNA and gene/protein with new un-seen sentences from bio-medical journal articles. 
+TODO!
