@@ -1,38 +1,18 @@
 # -*- coding: utf-8 -*-
 #import urllib.request
-import xml.dom.minidom
-import xml.etree.cElementTree as ET
 import csv
+import xml.etree.cElementTree as ET
 
-def parseXML(filename):
-    DOMTree= xml.dom.minidom.parse(filename)
-    PubmedArticleSet = DOMTree.documentElement
-    return PubmedArticleSet
+#Below is the url used to download EfetchResult.xml
 #url = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&query_key=1&WebEnv=NCID_1_2878613_165.112.9.28_9001_1460133461_281781643_0MetA0_S_MegaStore_F_1&rettype=xml"
-#local_filename, headers = urllib.request.urlretrieve(url)
 
-#filename = "C:/PythonProjects/git_EntityRelationExtraction/OpenData/EfetchResult_mini.xml"
-filename = "C:/PythonProjects/git_EntityRelationExtraction/OpenData/EfetchResult.xml"
-#filename = "C:/PythonProjects/git_EntityRelationExtraction/OpenData/test.xml"
-
-#xmlData = parseXML(filename)
-#pmids = xmlData.getElementsByTagName("PMID")  
-#for pmid in pmids:
- #   print(pmid.getAttribute("Version"))
- #  print(pmid.getAttribute("Version=\"1\""))  
+filename = "./Data/EfetchResult.xml"
 
 tree = ET.parse(filename)
 root = tree.getroot()
-#for node in root.iter():
-#    print(node.tag, node.attrib)
 
-#for node in root.findall(".//PMID[@Version='1']"):
-#    print(node.tag, node.attrib)
-    
-#for pmid in root.iter('PMID'):
-#    print(pmid.text)
 try:    
-    with open('./pubmedAbstractsWithID.csv', 'w', newline='') as csvfile:
+    with open('./Data/PubmedAbstractsWithID.csv', 'w', newline='') as csvfile:
         pubmedWriter = csv.writer(csvfile, delimiter=',')
         
         try:
