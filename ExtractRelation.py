@@ -8,7 +8,7 @@ Created on Mon Apr 11 12:54:03 2016
 import csv
 
 with open("./Data/pubmedAbstractsWithID_mini.csv", newline='') as csvfile:
-    reader = csv.reader(csvfile, delimiter=',', quote="\"")
+    reader = csv.reader(csvfile, delimiter=',')
     for row in reader:
         pmid, abstract = row        
         print(pmid, abstract)

@@ -13,7 +13,7 @@ root = tree.getroot()
 
 try:    
     with open('./Data/PubmedAbstractsWithID.csv', 'w', newline='') as csvfile:
-        pubmedWriter = csv.writer(csvfile, delimiter=',', escapechar=',', quoting=csv.QUOTE_NONE)
+        pubmedWriter = csv.writer(csvfile, delimiter=',')
         
         try:
             for pubmed_article in root.findall('PubmedArticle'):
