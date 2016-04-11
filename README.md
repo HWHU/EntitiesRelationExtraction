@@ -19,5 +19,10 @@ In this example, the search criteria is:
 
 `((miRNA[Title/Abstract] OR microRNA[Title/Abstract] OR micro RNA[Title/Abstract]) AND "english"[Language]) AND "journal article"[Publication Type] AND "loattrfree full text"[sb]`
 
-If you would like an example on how to use the E-Utilities API, I have a simple Jupyter exmple [here] ().  Details on how to use E-Utilities can be found [here](http://www.ncbi.nlm.nih.gov/books/NBK25499/).
+If you would like an example on how to use the E-Utilities API, I have a simple Jupyter exmple [here] ({{site.baseurl}}/Retreiving Abstracts from PubMed.ipynb).  Details on how to use E-Utilities can be found [here](http://www.ncbi.nlm.nih.gov/books/NBK25499/).
 
+By using the search criteria above togheter with the E-Utilities API using `esearch` , an [xml file] ({{site.baseurl}}/ResultFromESearch.xml) containing `WebEnv` is returned. Then use `efetch` to downlown all the journal articles where their PubMed IDs are stored in `WebEnv` :
+
+`http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&query_key=1&WebEnv=NCID_1_2878613_165.112.9.28_9001_1460133461_281781643_0MetA0_S_MegaStore_F_1&retmode=xml`
+
+The result is our [raw data]({{site.baseurl}}/Data/EfetchResult.zip). For convenience, [here] ({{site.baseurl}}/Data/EfetchResult_mini.xml) is a subset of that .zip file which contains only 2 records, should you need to have a peek without unzipping the larger file.
