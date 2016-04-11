@@ -13,7 +13,7 @@ root = tree.getroot()
 
 try:    
     with open('./Data/PubmedAbstractsWithID.csv', 'w', newline='') as csvfile:
-        pubmedWriter = csv.writer(csvfile, delimiter=',')
+        pubmedWriter = csv.writer(csvfile, delimiter=',', escapechar=',', quoting=csv.QUOTE_NONE)
         
         try:
             for pubmed_article in root.findall('PubmedArticle'):
@@ -21,7 +21,7 @@ try:
                 try:
                     abstract = pubmed_article.find('MedlineCitation').find('Article').find('Abstract').find('AbstractText').text
                     print(pmid)
-                    pubmedWriter.writerow([pmid, abstract.encode("utf-8")]) 
+                    pubmedWriter.writerow([pmid, abstract]) 
                 except Exception as e:
                     print("Error with Abstract: ", e)
                     
