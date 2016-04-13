@@ -39,22 +39,49 @@ def TokeniseSentence(abstract_dict):
 
 # Find the pair of miRNA and gene with known relationship
 # TODO: find specific pair, now only finding anyword containint 'mir'
-def findmiRNA(sentence_dict): #TODO
-    for a in sentence_dict: # pubmed id = a 
-       for s in sentence_dict[a]: # for each sentence in the abstract with pubmed id = a
-           word_list = word_tokenize(s)
-           for word in word_list:
-               position = word.lower().find('mir') # may need to do the same for let-, lin-
-               if position >= 0: # if found
-                   print(word)
+                
+def findMatch(word_list, text): # find all matching words and their positions in a sentence
+    matched = ()
+    index = ()    
+    for word in word_list:
+        pos = word.lower().find(text)
+        if pos >= 0: # if found
+            print('word: ', word, 'index:', word_list.index(word))
+            matched = matched + (word,)
+            index = index + (word_list.index(word),)
+    return matched, index
 
+def findSpecificPair():
+    return
+    
+def findWordsBetween():
+    return
+    
+def findWordsBefore():
+    return
+    
+def findWordsAfter():
+    return
     
 if __name__ == '__main__':
     
     filename = "./Data/pubmedAbstractsWithID_mini.csv"
     abs_dict = AbstractsToDict(filename)
     sent_dict = TokeniseSentence(abs_dict)
-    findmiRNA(sent_dict) # TODO
+
+    for a in sent_dict: # pubmed id = a 
+        for s in sent_dict[a]: # for each sentence in the abstract with pubmed id = a
+           word_list = word_tokenize(s)
+           matchedWords, matchedPos = findMatch(word_list,'mir') 
+           #print('matchedWords: ', matchedWords, 'matchedPos:', matchedPos)
+
+#==============================================================================
+# Example known relationship betweent mir-200a and beta-catenin and cyclin D1
+# Downregulation of miR-200a in meningiomas and arachnoidal cells resulted in 
+# increased expression of beta-catenin and cyclin D1 involved in cell 
+# proliferation.
+#==============================================================================
+
 #==============================================================================
 # Description	Alias	Regular Expression Pattern
 # ----------------------------------------------------------------------

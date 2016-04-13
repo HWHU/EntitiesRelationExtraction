@@ -32,7 +32,7 @@ The result is our raw data in [EfetchResult.zip] (https://github.com/ryubidragon
 The only elements from raw data that we are interested in for this example are: PubMed ID and the associated Abstract. The text in abstracts will be served as the data for the machine learning task of entities relation recognition. This can be done using [ExtractPubMedIDAbstract.py] (https://github.com/ryubidragonfire/EntitiesRelationExtraction/). Don't forget to unzip the raw data [EfetchResult.zip] (https://github.com/ryubidragonfire/EntitiesRelationExtraction/tree/master/Data/) before hand! 
 
 ### 3. Extract named entities, namely miRNA and gene/protein from a sentence.
-Comprehensive regular expressions pattern to extract specific and non-specfic miRNA can be found in Table 4 and 5 in this [paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4602280/). Another option is to tokenise the abstract into sentences, and the tokenize those sentences into invidual word. After that, the specific miRNA and gene can then be filtered out. 
+Comprehensive regular expressions pattern to extract specific and non-specfic miRNA can be found in Table 4 and 5 in this [paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4602280/). Another option is to tokenise the abstract into sentences, and then tokenize those sentences into invidual word. After that, the specific miRNA and gene can then be found. 
 
 
 use NER to extract gene, can expand to diseases. 
